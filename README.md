@@ -1,5 +1,14 @@
 # Mask R-CNN for Object Detection and Segmentation
 
+### Compatability Note:
+
+Uses:
+- Tensorflow-GPU 1.15.3 <code>tensorflow-gpu==1.15.3</code>
+- NVIDIA CUDA 10.0
+- cuDNN 5.0.56
+- Keras 2.1.6 <code>keras==2.1.6</code>
+- h5py 2.10.0 <code>h5py==2.10.0</code> 
+
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 ![Instance Segmentation Sample](assets/street.png)
