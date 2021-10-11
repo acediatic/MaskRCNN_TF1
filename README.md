@@ -9,6 +9,12 @@ Uses:
 - Keras 2.1.6 <code>keras==2.1.6</code>
 - h5py 2.10.0 <code>h5py==2.10.0</code> 
 
+### Source
+
+This repository was forked from the [Matterport implementation](https://github.com/matterport/Mask_RCNN), with some adjustments/bug fixes made as necessary. The following is their README.md. All credit and our thanks to the Matterport team. 
+
+## Matterport README
+
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
 ![Instance Segmentation Sample](assets/street.png)
