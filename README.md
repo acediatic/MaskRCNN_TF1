@@ -4,7 +4,7 @@
 
 Uses:
 - Tensorflow-GPU 1.15.3 <code>tensorflow-gpu==1.15.3</code>
-- NVIDIA CUDA 10.0 [here](https://developer.nvidia.com/cuda-10.0-download-archive)
+- NVIDIA CUDA 10.0 [here](https://developer.nvidia.com/cuda-10.0-download-archive). See the install instructions for this [here](https://docs.nvidia.com/cuda/archive/10.0/)
 - cuDNN v7.5.0 [here](https://developer.nvidia.com/rdp/cudnn-archive) _look for <code>Download cuDNN v7.5.0 (Feb 21, 2019), for CUDA 10.0
 </code>_
 - Keras 2.1.6 <code>keras==2.1.6</code>
